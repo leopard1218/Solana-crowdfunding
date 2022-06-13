@@ -26,7 +26,7 @@ const Card = ({ data, setCards }) => {
         <div>
             <div className="ui card fluid">
                 <div className="image">
-                    <img height="200px" width="100px" src={data.image} />
+                    <img className="image-size" src={data.image} />
                 </div>
                 <div className="content">
                     <div className="header">{data.title}</div>

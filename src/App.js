@@ -25,7 +25,8 @@ const App = () => {
                 title: e.name,
                 description: e.description,
                 amount: (e.amount_donated).toString(),
-                image: e.image_link,
+                // image: e.image_link,
+                image: `https://gateway.pinata.cloud/ipfs/QmTMXgmSHqLoybrEXsyDMVNE1YdYiCf3WDc9VjhKDedP3j/${idx}.png`,
                 id: e.pubId,
               }}
               setCards={setCards} />
